@@ -15,11 +15,9 @@ namespace Test
         public Form1()
         {
             InitializeComponent();
+            
+            
             int tru = truhaiso(2, 3);
-        }
-        public int tonghaiso(int a, int b)
-        {
-            return a + b;
         }
         public int truhaiso(int x, int y)
         {

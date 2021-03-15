@@ -16,12 +16,12 @@ namespace Test
         {
             InitializeComponent();
             
-            
+    
             int tru = truhaiso(2, 3);
         }
-        public int truhaiso(int x, int y)
+        public int truhaiso(int z, int k)
         {
-            return x - y;
+            return z - k;
         }
         private void Form1_Load(object sender, EventArgs e)
         {

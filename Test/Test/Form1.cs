@@ -15,7 +15,15 @@ namespace Test
         public Form1()
         {
             InitializeComponent();
+            int tong = tonghaiso(2, 3);
         }
+        public int tonghaiso(int a, int b)
+        {
+            return a + b;
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
